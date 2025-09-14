@@ -9,9 +9,11 @@ namespace Tyuiu.SivolapEM.Sprint1.Task1.V16.Test
         public void ValidExpression()
         {
             DataService dataService = new DataService();
-            double a, b, c;
-            a = b = c = 2;
-            Assert.AreEqual(24, dataService.Calculate(a,b,c));
+            double a, x, y;
+            a = 2;
+            x = 2;
+            y = 1;
+            Assert.AreEqual(14, dataService.Calculate(a,x,y));
         }
     }
 }
