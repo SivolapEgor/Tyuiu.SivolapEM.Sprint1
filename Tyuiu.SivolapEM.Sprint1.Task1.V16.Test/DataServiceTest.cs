@@ -13,7 +13,7 @@ namespace Tyuiu.SivolapEM.Sprint1.Task1.V16.Test
             a = 2;
             x = 2;
             y = 1;
-            Assert.AreEqual(14, dataService.Calculate(a,x,y));
+            Assert.AreEqual(22, dataService.Calculate(a,x,y));
         }
     }
 }
